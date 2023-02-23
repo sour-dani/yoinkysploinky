@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>that yoinky sploinky? omw</title>
+        <title>Witness Dawn Beans!</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="that yoinky sploinky? omw">
+        <link rel="icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="css/yoink.css">
+        <meta property="og:url" content="/">
+        <meta property="og:title" content="home of da sploink">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="http://www.yoinkysploinky.xyz/static/img/yoinky.gif/">
+        <meta property="og:description" content="that yoinky sploinky? omw">
+    </head>
+    <body>
+
+        {% if  page.date | date: '%-m'  == '2' %}
+            {% assign gif = "that-yoinky.gif" %}
+        {% else %}
+            {% assign gif = "yoinky.gif" %}
+        {% endif %}
+
+        <img id="sploinky" src="img/{{ gif }}.gif">
+        
+    </body>
+
+</html>
