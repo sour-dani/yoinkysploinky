@@ -10,7 +10,7 @@ layout:     none
         {% assign video = "false" %}
         {% assign gif = "yoinky" %}
         {% if month == "2" %}
-            {% if day == "1" %}
+            {% if day == "22" %}
                 {% assign gif = "kittysploink" %}
             {% endif %}
         {% elsif month == "3" %}
